@@ -1,0 +1,66 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  // ESLINT 自动修正
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+    // "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // "[vue]": {
+  //   "editor.defaultFormatter": "octref.vetur",
+  //   "editor.codeActionsOnSave": {
+  //     "source.fixAll": true
+  //     // "source.fixAll.eslint": true
+  //   }
+  // }
+
+  // 指定vue文件的格式化工具
+  // "[vue]": {
+  //   "editor.defaultFormatter": "octref.vetur",
+  // },
+  // "vetur.format.defaultFormatter.html": "prettyhtml",
+  // "vetur.format.defaultFormatter.css": "prettier",
+  // "vetur.format.defaultFormatter.scss": "prettier",
+  // "vetur.format.defaultFormatter.js": "prettier",
+  // "vetur.format.defaultFormatterOptions": {
+  //   "prettyhtml": {
+  //     "singleQuote": false,
+  //     "wrapAttributes": false,
+  //     "sortAttributes": true,
+  //     "printWidth": 200
+  //   },
+  //   "prettier": {
+  //     "printWidth": 640,
+  //     "semi": false,
+  //     "singleQuote": true,
+  //     "tabWidth": 2,
+  //     "stylelintIntegration": true
+  //   }
+  // },
+  // "files.associations": {
+  //   "*.vue": "vue",
+  //   "*.wpy": "vue"
+  // }
+  // "prettier.printWidth": 640,
+  // "prettier.semi": false,
+  // "prettier.singleQuote": true,
+  // "prettier.tabWidth": 2,
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "html.format.wrapAttributes": "auto",
+  // "html.format.wrapLineLength": 180,
+  // "html.format.endWithNewline": true,
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // // "python.pythonPath": "/usr/bin/python",
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true
+  // }
+}

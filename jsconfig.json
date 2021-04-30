@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@common/*": ["common/*"],
+      "@app/*": ["app/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

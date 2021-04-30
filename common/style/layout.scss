@@ -1,0 +1,122 @@
+// flex - layout 尽量使用flex布局
+
+// 开启flex并居中对齐
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+// 开启flex，主轴between，副轴center
+.flex-between-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-around-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+// 主轴方向-水平
+.flex-to-row {
+  display: flex;
+  flex-direction: row;
+}
+
+// 主轴方向-垂直 注：此属性影响主轴对齐方式和交叉轴对齐方式
+.flex-to-column {
+  display: flex;
+  flex-direction: column;
+}
+
+// 主轴 - 居中对齐
+.flex-main-center {
+  justify-content: center;
+}
+
+// 主轴 - 开始对齐
+.flex-main-start {
+  justify-content: flex-start;
+}
+
+// 主轴 - 结尾对齐
+.flex-main-end {
+  justify-content: flex-end;
+}
+
+// 主轴 - 两端对齐，项目之间的间隔都相等
+.flex-main-between {
+  justify-content: space-between;
+}
+
+// 主轴 - 间隔相等对齐
+.flex-main-around {
+  justify-content: space-around;
+}
+
+// 交叉轴 - 居中对齐
+.flex-cross-center {
+  align-items: center;
+}
+
+// 交叉轴 - 开始对齐
+.flex-cross-start {
+  align-items: flex-start;
+}
+
+// 交叉轴 - 结尾对齐
+.flex-cross-end {
+  align-items: flex-end;
+}
+
+// 交叉轴 - 基线对齐
+.flex-cross-baseline {
+  align-items: baseline;
+}
+
+// 交叉轴 - 撑满容器高度
+.flex-cross-stretch {
+  align-items: stretch;
+}
+
+// 自适应(兄弟元素固定大小，当前元素自适应)
+.flex-auto {
+  flex: 1;
+}
+
+// 开启换行（替换浮动布局）
+.flex-wrap {
+  flex: wrap;
+}
+
+.body-hidden {
+  overflow: hidden;
+}
+
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/**
+ * 清除浮动
+ * @const clearfix
+ */
+ .clearfix {
+  zoom: 1;
+  &::after {
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    content: '';
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "id": "1215198",
+  "name": "module1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "18667368",
+      "name": "通用-额度锁定",
+      "font_class": "tongyong-edusuoding",
+      "unicode": "e6b2",
+      "unicode_decimal": 59058
+    },
+    {
+      "icon_id": "18204028",
+      "name": "落地页-输入手机号",
+      "font_class": "ladiye-shurushoujihao",
+      "unicode": "e6b0",
+      "unicode_decimal": 59056
+    },
+    {
+      "icon_id": "18204029",
+      "name": "落地页-输入验证码",
+      "font_class": "ladiye-shuruyanzhengma",
+      "unicode": "e6b1",
+      "unicode_decimal": 59057
+    },
+    {
+      "icon_id": "17989571",
+      "name": "草莓-融担服务",
+      "font_class": "caomei-rongdanfuwu",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "17989573",
+      "name": "香蕉-融担服务",
+      "font_class": "xiangjiao-rongdanfuwu",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "17468955",
+      "name": "通用-提示",
+      "font_class": "tongyong-tishi",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "17378186",
+      "name": "香蕉-笑脸",
+      "font_class": "xiangjiao-xiaolian",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "17347073",
+      "name": "草莓包弹窗-关闭",
+      "font_class": "caomeibaodanchuang-guanbi",
+      "unicode": "e673",
+      "unicode_decimal": 58995
+    },
+    {
+      "icon_id": "17332991",
+      "name": "草莓-更新app",
+      "font_class": "caomei-gengxinapp",
+      "unicode": "e65d",
+      "unicode_decimal": 58973
+    },
+    {
+      "icon_id": "17332992",
+      "name": "草莓-交易记录",
+      "font_class": "caomei-jiaoyijilu",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "17332993",
+      "name": "草莓-还款默认",
+      "font_class": "caomei-huankuanmoren",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "17332994",
+      "name": "草莓-客服电话",
+      "font_class": "caomei-kefudianhua",
+      "unicode": "e660",
+      "unicode_decimal": 58976
+    },
+    {
+      "icon_id": "17332995",
+      "name": "草莓-首页激活",
+      "font_class": "caomei-shouyejihuo",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "17332996",
+      "name": "草莓-权益中心",
+      "font_class": "caomei-quanyizhongxin",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "17332997",
+      "name": "草莓-还款激活",
+      "font_class": "caomei-huankuanjihuo",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "17332998",
+      "name": "草莓-设置",
+      "font_class": "caomei-shezhi",
+      "unicode": "e664",
+      "unicode_decimal": 58980
+    },
+    {
+      "icon_id": "17332999",
+      "name": "草莓-热门游戏",
+      "font_class": "caomei-remenyouxi",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "17333000",
+      "name": "草莓-首页默认",
+      "font_class": "caomei-shouyemoren",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "17333001",
+      "name": "草莓-我的默认",
+      "font_class": "caomei-wodemoren",
+      "unicode": "e667",
+      "unicode_decimal": 58983
+    },
+    {
+      "icon_id": "17333002",
+      "name": "草莓-数据安全",
+      "font_class": "caomei-shujuanquan",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "17333003",
+      "name": "草莓-完成线框",
+      "font_class": "caomei-wanchengxiankuang",
+      "unicode": "e669",
+      "unicode_decimal": 58985
+    },
+    {
+      "icon_id": "17333004",
+      "name": "草莓-信息安全注意",
+      "font_class": "caomei-xinxianquanzhuyi",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "17333005",
+      "name": "草莓-我要投诉",
+      "font_class": "caomei-woyaotousu",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "17333006",
+      "name": "草莓-我的激活",
+      "font_class": "caomei-wodejihuo",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    },
+    {
+      "icon_id": "17333007",
+      "name": "草莓包-速放款",
+      "font_class": "caomeibao-sufangkuan",
+      "unicode": "e66d",
+      "unicode_decimal": 58989
+    },
+    {
+      "icon_id": "17333008",
+      "name": "草莓-在线客服",
+      "font_class": "caomei-zaixiankefu",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "17333009",
+      "name": "草莓包-总额度",
+      "font_class": "caomeibao-zongedu",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "17333010",
+      "name": "通用-绑卡",
+      "font_class": "tongyong-bangka",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "17333011",
+      "name": "草莓包-秒审批",
+      "font_class": "caomeibao-miaoshenpi",
+      "unicode": "e671",
+      "unicode_decimal": 58993
+    },
+    {
+      "icon_id": "17333012",
+      "name": "草莓包-易操作",
+      "font_class": "caomeibao-yicaozuo",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "17333014",
+      "name": "草莓-我的客服",
+      "font_class": "caomei-wodekefu",
+      "unicode": "e674",
+      "unicode_decimal": 58996
+    },
+    {
+      "icon_id": "17333015",
+      "name": "草莓包-选中",
+      "font_class": "caomeibao-xuanzhong",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "17333016",
+      "name": "通用-抽屉弹窗-关闭",
+      "font_class": "tongyong-choutidanchuang-guanbi",
+      "unicode": "e676",
+      "unicode_decimal": 58998
+    },
+    {
+      "icon_id": "17333017",
+      "name": "草莓-个人中心默认头像",
+      "font_class": "caomei-gerenzhongxinmorentouxiang",
+      "unicode": "e677",
+      "unicode_decimal": 58999
+    },
+    {
+      "icon_id": "17333018",
+      "name": "通用-不可选",
+      "font_class": "tongyong-bukexuan",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "17333019",
+      "name": "通用-额度勾选",
+      "font_class": "tongyong-edugouxuan",
+      "unicode": "e679",
+      "unicode_decimal": 59001
+    },
+    {
+      "icon_id": "17333020",
+      "name": "通用-飞机",
+      "font_class": "tongyong-feiji",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "17333021",
+      "name": "草莓-银行卡",
+      "font_class": "caomei-yinhangka",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "17333022",
+      "name": "通用-房子",
+      "font_class": "tongyong-fangzi",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "17333023",
+      "name": "通用-定位",
+      "font_class": "tongyong-dingwei",
+      "unicode": "e67d",
+      "unicode_decimal": 59005
+    },
+    {
+      "icon_id": "17333024",
+      "name": "通用-箭头",
+      "font_class": "tongyong-jiantou",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "17333025",
+      "name": "通用-确认中",
+      "font_class": "tongyong-querenzhong",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "17333026",
+      "name": "通用-上传",
+      "font_class": "tongyong-shangchuan",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "17333027",
+      "name": "通用-闭眼",
+      "font_class": "tongyong-biyan",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "17333028",
+      "name": "通用-开户",
+      "font_class": "tongyong-kaihu",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "17333029",
+      "name": "通用-公告",
+      "font_class": "tongyong-gonggao",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "17333030",
+      "name": "通用-拍摄",
+      "font_class": "tongyong-paishe",
+      "unicode": "e684",
+      "unicode_decimal": 59012
+    },
+    {
+      "icon_id": "17333031",
+      "name": "通用-清除",
+      "font_class": "tongyong-qingchu",
+      "unicode": "e685",
+      "unicode_decimal": 59013
+    },
+    {
+      "icon_id": "17333032",
+      "name": "通用-锁定",
+      "font_class": "tongyong-suoding",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "17333033",
+      "name": "通用-未勾选",
+      "font_class": "tongyong-weigouxuan",
+      "unicode": "e687",
+      "unicode_decimal": 59015
+    },
+    {
+      "icon_id": "17333035",
+      "name": "通用-未通过",
+      "font_class": "tongyong-weitongguo",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    },
+    {
+      "icon_id": "17333036",
+      "name": "通用-通讯录",
+      "font_class": "tongyong-tongxunlu",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "17333037",
+      "name": "通用-已认证",
+      "font_class": "tongyong-yirenzheng",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "17333038",
+      "name": "通用-疑问",
+      "font_class": "tongyong-yiwen",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "17333039",
+      "name": "通用-未认证",
+      "font_class": "tongyong-weirenzheng",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "17333040",
+      "name": "通用-站内信",
+      "font_class": "tongyong-zhanneixin",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "17333041",
+      "name": "香蕉-勾选点亮",
+      "font_class": "xiangjiao-gouxuandianliang",
+      "unicode": "e68f",
+      "unicode_decimal": 59023
+    },
+    {
+      "icon_id": "17333042",
+      "name": "通用-信贷",
+      "font_class": "tongyong-xindai",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "17333043",
+      "name": "通用-睁眼",
+      "font_class": "tongyong-zhengyan",
+      "unicode": "e691",
+      "unicode_decimal": 59025
+    },
+    {
+      "icon_id": "17333044",
+      "name": "香蕉-还款激活",
+      "font_class": "xiangjiao-huankuanjihuo",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    },
+    {
+      "icon_id": "17333045",
+      "name": "通用-银行签约",
+      "font_class": "tongyong-yinhangqianyue",
+      "unicode": "e693",
+      "unicode_decimal": 59027
+    },
+    {
+      "icon_id": "17333046",
+      "name": "通用-银行鉴权",
+      "font_class": "tongyong-yinhangjianquan",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "17333047",
+      "name": "通用-责任",
+      "font_class": "tongyong-zeren",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "17333048",
+      "name": "香蕉-还款日",
+      "font_class": "xiangjiao-huankuanri",
+      "unicode": "e696",
+      "unicode_decimal": 59030
+    },
+    {
+      "icon_id": "17333049",
+      "name": "香蕉-极速审核",
+      "font_class": "xiangjiao-jisushenhe",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "17333050",
+      "name": "香蕉-快速放款",
+      "font_class": "xiangjiao-kuaisufangkuan",
+      "unicode": "e698",
+      "unicode_decimal": 59032
+    },
+    {
+      "icon_id": "17333051",
+      "name": "香蕉-权益中心",
+      "font_class": "xiangjiao-quanyizhongxin",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "17333052",
+      "name": "香蕉-还款默认",
+      "font_class": "xiangjiao-huankuanmoren",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "17333053",
+      "name": "香蕉-交易记录",
+      "font_class": "xiangjiao-jiaoyijilu",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "17333054",
+      "name": "香蕉-热门游戏",
+      "font_class": "xiangjiao-remenyouxi",
+      "unicode": "e69c",
+      "unicode_decimal": 59036
+    },
+    {
+      "icon_id": "17333055",
+      "name": "香蕉-我的激活",
+      "font_class": "xiangjiao-wodejihuo",
+      "unicode": "e69d",
+      "unicode_decimal": 59037
+    },
+    {
+      "icon_id": "17333056",
+      "name": "香蕉-我的默认",
+      "font_class": "xiangjiao-wodemoren",
+      "unicode": "e69e",
+      "unicode_decimal": 59038
+    },
+    {
+      "icon_id": "17333057",
+      "name": "香蕉-通过率高",
+      "font_class": "xiangjiao-tongguoshuaigao",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "17333058",
+      "name": "香蕉-首页激活",
+      "font_class": "xiangjiao-shouyejihuo",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "17333059",
+      "name": "香蕉-首页默认",
+      "font_class": "xiangjiao-shouyemoren",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    },
+    {
+      "icon_id": "17333060",
+      "name": "香蕉-设置",
+      "font_class": "xiangjiao-shezhi",
+      "unicode": "e6a2",
+      "unicode_decimal": 59042
+    },
+    {
+      "icon_id": "17333061",
+      "name": "香蕉-银行卡",
+      "font_class": "xiangjiao-yinhangka",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "17333062",
+      "name": "香蕉包-弹窗关闭",
+      "font_class": "xiangjiaobao-danchuangguanbi",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "17333063",
+      "name": "香蕉-隐私政策",
+      "font_class": "xiangjiao-yinsizhengce",
+      "unicode": "e6a5",
+      "unicode_decimal": 59045
+    },
+    {
+      "icon_id": "17333064",
+      "name": "香蕉-我要投诉",
+      "font_class": "xiangjiao-woyaotousu",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "17333065",
+      "name": "香蕉包-我的客服",
+      "font_class": "xiangjiaobao-wodekefu",
+      "unicode": "e6a7",
+      "unicode_decimal": 59047
+    },
+    {
+      "icon_id": "17333066",
+      "name": "香蕉-游戏中心",
+      "font_class": "xiangjiao-youxizhongxin",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "17333067",
+      "name": "香蕉-下载更新",
+      "font_class": "xiangjiao-xiazaigengxin",
+      "unicode": "e6a9",
+      "unicode_decimal": 59049
+    },
+    {
+      "icon_id": "17333068",
+      "name": "香蕉包-身份证识别有问题",
+      "font_class": "xiangjiaobao-shenfenzhengshibieyouwenti",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "17333070",
+      "name": "通用-高铁",
+      "font_class": "tongyong-gaotie",
+      "unicode": "e6ab",
+      "unicode_decimal": 59051
+    },
+    {
+      "icon_id": "17333207",
+      "name": "香蕉包-线框勾",
+      "font_class": "xiangjiaobao-xiankuanggou",
+      "unicode": "e6ac",
+      "unicode_decimal": 59052
+    }
+  ]
+}

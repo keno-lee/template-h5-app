@@ -1,0 +1,414 @@
+#hola-loading {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+
+  .loading-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 8px;
+
+    /**
+     * 第一种类型弹框的样式
+     */
+    .loading-bubble {
+      padding: 20px;
+      border-radius: 16px;
+      i {
+        width: 40px;
+        height: 40px;
+        margin-left: 16px;
+        display: inline-block;
+        background-color: #fff;
+        border-radius: 100%;
+        -webkit-animation: layui-m-anim-loading 1.4s infinite ease-in-out;
+        animation: layui-m-anim-loading 1.4s infinite ease-in-out;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        &:first-child {
+          margin-left: 0;
+          -webkit-animation-delay: -0.32s;
+          animation-delay: -0.32s;
+        }
+      }
+
+      i.layui-m-layerload {
+        -webkit-animation-delay: -0.16s;
+        animation-delay: -0.16s;
+      }
+
+      // 提示文案
+      p.hint {
+        font-size: 32px;
+        text-align: center;
+        color: #fff;
+      }
+
+      @keyframes layui-m-anim-loading {
+        0%,
+        80%,
+        100% {
+          transform: scale(0);
+          -webkit-transform: scale(0);
+        }
+        40% {
+          transform: scale(1);
+          -webkit-transform: scale(1);
+        }
+      }
+    }
+
+    /**
+     * 第二种类型弹框的样式
+     */
+    .loading-circular {
+      padding: 20px;
+      // background-color: red;
+      border-radius: 16px;
+      width: 200px;
+      height: 200px;
+      .spinner-wrap {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 20px;
+        width: 80px;
+        height: 80px;
+        color: var(--primary);
+        -webkit-animation: container-rotate 1568ms linear infinite;
+        animation: container-rotate 1568ms linear infinite;
+        * {
+          box-sizing: border-box;
+        }
+        .circle {
+          border-radius: 50%;
+        }
+        .left {
+          float: left !important;
+        }
+        .right {
+          float: right !important;
+        }
+        .spinner {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+          animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+        }
+        .circle-clipper {
+          display: inline-block;
+          position: relative;
+          width: 50%;
+          height: 100%;
+          overflow: hidden;
+          border-color: inherit;
+        }
+        .gap-patch {
+          position: absolute;
+          top: 0;
+          left: 45%;
+          width: 10%;
+          height: 100%;
+          overflow: hidden;
+          border-color: inherit;
+        }
+        .gap-patch .circle {
+          width: 1000%;
+          left: -450%;
+        }
+        .circle-clipper .circle {
+          width: 200%;
+          height: 100%;
+          border-width: 3PX; /* no */
+          border-style: solid;
+          border-color: inherit;
+          border-bottom-color: transparent !important;
+          border-radius: 50%;
+          -webkit-animation: none;
+          animation: none;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+        }
+        .circle-clipper.left .circle {
+          left: 0;
+          border-right-color: transparent !important;
+          -webkit-transform: rotate(129deg);
+          transform: rotate(129deg);
+          -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+          animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+        }
+        .circle-clipper.right .circle {
+          left: -100%;
+          border-left-color: transparent !important;
+          -webkit-transform: rotate(-129deg);
+          transform: rotate(-129deg);
+          -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+          animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
+        }
+      }
+
+      /**
+       * 页面切换的 loading 框
+      */
+      .switch-loading {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        z-index: 999999999;
+        .spinner-wrap {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+
+      // 提示文案
+      p.hint {
+        font-size: 32px;
+        text-align: center;
+      }
+
+      @-webkit-keyframes fill-unfill-rotate {
+        12.5% {
+          -webkit-transform: rotate(135deg);
+        }
+        25% {
+          -webkit-transform: rotate(270deg);
+        }
+        37.5% {
+          -webkit-transform: rotate(405deg);
+        }
+        50% {
+          -webkit-transform: rotate(540deg);
+        }
+        62.5% {
+          -webkit-transform: rotate(675deg);
+        }
+        75% {
+          -webkit-transform: rotate(810deg);
+        }
+        87.5% {
+          -webkit-transform: rotate(945deg);
+        }
+        to {
+          -webkit-transform: rotate(1080deg);
+        }
+      }
+      @keyframes fill-unfill-rotate {
+        12.5% {
+          transform: rotate(135deg);
+        }
+        25% {
+          transform: rotate(270deg);
+        }
+        37.5% {
+          transform: rotate(405deg);
+        }
+        50% {
+          transform: rotate(540deg);
+        }
+        62.5% {
+          transform: rotate(675deg);
+        }
+        75% {
+          transform: rotate(810deg);
+        }
+        87.5% {
+          transform: rotate(945deg);
+        }
+        to {
+          transform: rotate(1080deg);
+        }
+      }
+      @-webkit-keyframes left-spin {
+        from {
+          -webkit-transform: rotate(130deg);
+        }
+        50% {
+          -webkit-transform: rotate(-5deg);
+        }
+        to {
+          -webkit-transform: rotate(130deg);
+        }
+      }
+      @keyframes left-spin {
+        from {
+          transform: rotate(130deg);
+        }
+        50% {
+          transform: rotate(-5deg);
+        }
+        to {
+          transform: rotate(130deg);
+        }
+      }
+      @-webkit-keyframes right-spin {
+        from {
+          -webkit-transform: rotate(-130deg);
+        }
+        50% {
+          -webkit-transform: rotate(5deg);
+        }
+        to {
+          -webkit-transform: rotate(-130deg);
+        }
+      }
+      @keyframes right-spin {
+        from {
+          transform: rotate(-130deg);
+        }
+        50% {
+          transform: rotate(5deg);
+        }
+        to {
+          transform: rotate(-130deg);
+        }
+      }
+      @-webkit-keyframes container-rotate {
+        to {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes container-rotate {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    }
+
+    /**
+     * 第三种类型弹框的样式
+     */
+    .loading-spinner {
+      width: 240px;
+      height: 240px;
+      padding: 0 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
+
+      .loading-img {
+        display: inline-block;
+        width: 72px;
+        height: 72px;
+        margin: 56px auto 0;
+        svg {
+          width: 72px;
+          height: 72px;
+        }
+      }
+
+      // 提示文案
+      p.hint {
+        color: #fff;
+        text-align: center;
+        line-height: 44px;
+        margin-top: 20px;
+        font-size: 28px;
+      }
+      .change1 {
+        animation: change 1s linear infinite;
+      }
+      .change2 {
+        animation: change 1s linear infinite 0.125s;
+      }
+      .change3 {
+        animation: change 1s linear infinite 0.25s;
+      }
+      .change4 {
+        animation: change 1s linear infinite 0.375s;
+      }
+      .change5 {
+        animation: change 1s linear infinite 0.5s;
+      }
+      .change6 {
+        animation: change 1s linear infinite 0.625s;
+      }
+      .change7 {
+        animation: change 1s linear infinite 0.75s;
+      }
+      .change8 {
+        animation: change 1s linear infinite 0.875s;
+      }
+      @keyframes change {
+        from {
+          fill-opacity: 1;
+        }
+        to {
+          fill-opacity: 0.2;
+        }
+      }
+
+      // @keyframes rotate {
+      //   0% {
+      //     transform: rotate(0deg);
+      //   }
+      //   12.5% {
+      //     transform: rotate(0deg);
+      //   }
+      //   12.51% {
+      //     transform: rotate(45deg);
+      //   }
+      //   25% {
+      //     transform: rotate(45deg);
+      //   }
+      //   25.01% {
+      //     transform: rotate(90deg);
+      //   }
+      //   37.5% {
+      //     transform: rotate(90deg);
+      //   }
+      //   37.51% {
+      //     transform: rotate(135deg);
+      //   }
+      //   50% {
+      //     transform: rotate(135deg);
+      //   }
+      //   50.01% {
+      //     transform: rotate(180deg);
+      //   }
+      //   62.5% {
+      //     transform: rotate(180deg);
+      //   }
+      //   62.51% {
+      //     transform: rotate(225deg);
+      //   }
+      //   75% {
+      //     transform: rotate(225deg);
+      //   }
+      //   75.01% {
+      //     transform: rotate(270deg);
+      //   }
+      //   87.5% {
+      //     transform: rotate(270deg);
+      //   }
+      //   87.51% {
+      //     transform: rotate(315deg);
+      //   }
+      //   99.99% {
+      //     transform: rotate(315deg);
+      //   }
+      //   100% {
+      //     transform: rotate(360deg);
+      //   }
+      // }
+    }
+  }
+}

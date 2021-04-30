@@ -1,0 +1,67 @@
+// 所有颜色变量
+// 使用ex. var(--primary)
+// SSR项目会有闪屏问题，(使用兼容写法)具体自行百度解决
+:root {
+  /* css 变量赋值位置 */
+  --primary: #FFAC00; // 主题色
+  --light-primary: #faf6f1; // 轻主题色 用于浅主题背景色
+  --success: #11c987; // 成功操作
+  --danger: #ff6262; // 危险操作（用于icon、标签、提示性文本气泡、小红点、报错、警告）
+  --warning: #ffc625; // 警告
+  --link: #4b69cf; // 链接颜色
+  --default: #333; // 暗灰（用于导航标题、重要标题、重要文本）
+  --secondary: #666; // 暗灰（用于次要标题、次要文本）
+  --tertiary: #999; // 中灰（用于列表标题、次要文本、提示文本、弹窗正文、声明/备注文本）
+  --tab: #bababa; // 极少使用（用于底部Tab栏icon，右箭头颜色）
+  --placeholder: #e4e4e4;
+  --disabled: #d4d4d4; // 淡灰（用于置灰按钮/icon/文本、内容占位文本、优惠券列表、深色分割线(页面分割较少的情况)）
+  --border: #f5f5f5;
+  --separate: #eee; // 浅色分割线(页面分割较多的情况)
+  --bg-default: #f5f5f5; // 默认背景色、卡片色
+}
+
+// 文字主题色
+.c-primary {
+  color: var(--primary);
+}
+.c-default {
+  color: var(--default);
+}
+.c-secondary {
+  color: var(--secondary);
+}
+.c-tertiary {
+  color: var(--tertiary);
+}
+.c-danger {
+  color: var(--danger);
+}
+.c-disabled {
+  color: var(--disabled);
+}
+.c-success {
+  color: var(--success);
+}
+// 文字跳转统一加颜色和下划线
+.c-link {
+  color: var(--link);
+  text-decoration: underline;
+}
+.c-warning {
+  color: var(--warning);
+}
+// 背景主题色
+.bg-primary {
+  background-color: var(--primary);
+}
+.bg-white {
+  background-color: #fff;
+}
+
+// svg
+.fill-primary {
+  fill: var(--primary);
+}
+.stroke-primary {
+  stroke: var(--primary);
+}

@@ -1,0 +1,100 @@
+// 文字排版
+
+.fs-xxxl,
+.fs-large-xxx {
+  font-size: 40px;
+}
+
+.fs-xxl,
+.fs-large-xx {
+  font-size: 36px;
+}
+
+.fs-xl,
+.fs-large-x {
+  font-size: 32px;
+}
+
+.fs-l,
+.fs-large {
+  font-size: 30px;
+}
+
+.fs-m,
+.fs-middle {
+  font-size: 28px;
+}
+
+.fs-s,
+.fs-small {
+  font-size: 26px;
+}
+
+.fs-xs,
+.fs-small-x {
+  font-size: 24px;
+}
+
+.fs-xxs,
+.fs-small-xx {
+  font-size: 22px;
+}
+
+.fw-thin {
+  font-weight: 300;
+}
+
+.fw-normal {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+/**
+ * Prevent users from long by selecting the text
+ * @const user-select-none
+ */
+.user-select-none {
+  -webkit-user-select: none;
+}
+
+.tac {
+  text-align: center;
+}
+.tal {
+  text-align: left;
+}
+.tar {
+  text-align: right;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+.text-throughline {
+  text-decoration: line-through;
+}
+/**
+ * 超出块的文字（一行文字）显示省略号
+ * @const text-hide
+ */
+.text-hide {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/**
+ * 超出块的文字显示省略号，可以传入最大显示行数
+ */
+@for $i from 1 through 10 {
+  .text-hide-#{$i} {
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: $i;
+    -webkit-box-orient: vertical;
+  }
+}
